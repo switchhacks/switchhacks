@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html>
 <title>Switch Hacks</title>
-
+<head>
+ <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+</head>
 <body>
 <div class="menu">
-   <p class="ting">
-   <h1 style="font-family:monospace;">switch:hacks</h1>
-   </p>
+  <p>
+   <h1 class="title" style="font-family:monospace;">switch:hacks</h1>
+  </p>
+  <!-- <p class="contents">
+  {introduction}
+  </p>
+  -->
+  <p class="welcome">
+  The geniuses over at <b>ReSwitched</b> have developed homebrew for Nintendo's newest console <b>Nintendo Switch</b>! The new homebrew environment is called <i>PegaSwitch!</i> It can be installed on firmware version <b><i>3.0.0</i></b> and NOTHING ELSE. Nothing higher, and nothing lower! In order to get firmware 3.0.0 you have to get a Switch on a firmware lower than 3.0.0. You then have to disconnect from Wi-Fi and use a physical copy of "Pokken Tournament DX" and update with the cartridge.
+</div>
+<div class="install">
+Installation (3.0.0 only)
 </div>
 
 </body>
@@ -24,20 +35,87 @@
     background-color: #35425e;
 }
 
-h1 {
+h1.title {
     margin-top: -12px;
-    color: white;
+    margin-left: 6px;
+    color: #D8DEE9;
     width: 50px;
 }
 
-h1:hover {
+h1.title:hover {
     margin-top: -12px;
     cursor: pointer;
-    text-decoration: underline;
-    text-decoration-color: #4da6c1;
+    color: white;
+}
+
+h1.library {
+    margin-top: -48px;
+    color: #d467ef;
+    width: 50px;
+    margin-left: 240px;
+}
+
+h1.hb {
+    margin-top: -47px;
+    color: #669fef;
+    width: 50px;
+    margin-left: 365px;
+}
+
+h1.methods {
+    margin-top: -48px;
+    color: #ef666c;
+    width: 50px;
+    margin-left: 509px;
+}
+
+h1.apps {
+    margin-top: -48px;
+    color: #30993c;
+    width: 50px;
+    margin-left: 634px;
+}
+
+h1.reddit {
+    margin-top: -48px;
+    color: #f9dd4d;
+    width: 50px;
+    margin-left: 711px;
 }
 
 body {
     background-color: #1e1e1e;
+}
+
+p.contents {
+   color: white;
+   font-family: monospace;
+   font-weight: bold;
+   font-size: 17px;
+}
+
+p.welcome {
+   color: #D8DEE9;
+   border-radius: 2px;
+   background-color: #35425e;
+   padding: 9px;
+   word-wrap: break-word;
+   width: 775px;
+   word-spacing: 1px;
+   font-size: 14px;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+div.install {
+    background-color: #35425e;
+    margin-top: 104px;
+    width: 163px;
+    padding: 6px;
+    border-radius: 2px;
+    margin-left: 3px;
+    color: #D8DEE9;
 }
 </style>
